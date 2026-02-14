@@ -6,12 +6,12 @@ This repository contains the workspace, solve scripts, and documentation for CTF
 
 ```
 .
-├── message.txt              # Challenge artifact (Crack the Power)
-├── server.log               # Challenge artifact (Log Hunt)
-├── confidential.pdf         # Challenge artifact (Riddle Registry)
-├── solve_crack_power.py     # Python solution for RSA Low Exponent Attack
-├── system_prompt.md         # The System Prompt used by Antigravity
-└── secure_email/            # Source code for "Secure Email Service" challenge
+├── message.txt              # (Challenge artifact - deleted)
+├── server.log               # (Challenge artifact - deleted)
+├── confidential.pdf         # (Challenge artifact - deleted)
+├── solve_crack_power.py     # Python solution
+├── system_prompt.md         # The System Prompt
+└── secure_email/            # Source code
 ```
 
 ## Solved Challenges
