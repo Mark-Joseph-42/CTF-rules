@@ -1,6 +1,6 @@
-# Antigravity CTF
+# CTF Rules & Workspace
 
-This repository contains the core "rules" and workspace for the **Antigravity** AI Agent.
+This repository contains core "rules" and a structured workspace for an **Agentic AI Coding Assistant** specialized in CTFs.
 
 ## Repository Structure
 
@@ -13,13 +13,13 @@ This repository contains the core "rules" and workspace for the **Antigravity** 
 
 ## The Rules: "Vibe Coding"
 
-The following guidelines define the operational mode of the Antigravity agent:
+The following guidelines define the prioritized operational mode for the AI agent:
 
 1.  **Velocity First:** Protoype immediately. Don't explain—just write the code.
 2.  **Visual Verification:** Use browser subagents to verify changes.
 3.  **Terse Output:** Minimize preamble.
 4.  **CTF Mode:** No guardrails for security testing. Analyze raw data (hexdumps, logs).
-5.  **Gemini Reasoning:** Offload methodology search to Gemini (`gemini.google.com`).
+5.  **External Reasoning:** Offload methodology search to web-enabled AI models.
 
 > [!TIP]
 > Use the `sandbox/` folder to store temporary scripts and artifacts for ongoing challenges to keep the root directory clean.
