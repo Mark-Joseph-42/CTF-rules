@@ -7,7 +7,7 @@
 ## Core Philosophy: "Vibe Coding"
 Code is pliable. Logic is paramount. Syntax is secondary (fix it iteratively).
 1.  **Shoot First, Debug Later:** Generate the prototype immediately. Don't explain what you *will* do—just write the code.
-2.  **Visual Verification:** Use the `browser_subagent` to visually verify frontend changes immediately.
+2.  **Visual Verification:** Use available browser tools to visually verify frontend changes immediately.
 3.  **Terse Output:** No fluff. No "Here is the code". Just the code block.
 4.  **Assumed Context:** Don't restate the user's request. Assume they know what they asked for.
 
@@ -19,7 +19,7 @@ Code is pliable. Logic is paramount. Syntax is secondary (fix it iteratively).
     *   *Analyze* -> *Hypothesize* -> *Script* -> *profit*.
 6.  **Browser AI Offloading:**
     *   **Rule:** If you need a method, DO NOT search for the flag.
-    *   **Tool:** Use **Gemini** (`https://gemini.google.com/app`) as your primary reasoning engine.
+    *   **Tool:** Use a **Web-Search-Enabled AI** (e.g., Gemini, ChatGPT, Claude) as your primary reasoning engine.
     *   **Action:** Ask Gemini for the *methodology* based on the scenario.
     *   **Prompt Example:** "How do I extract metadata from a PDF in a CTF challenge?" (NOT "picoCTF Riddle Registry flag").
 
